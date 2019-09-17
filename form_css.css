@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    /* display: inline-block; */
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    width: 50%;
+    /* height: 70%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-image: linear-gradient(#37b9e9,#a3bcb1);
+    background: #eeeeee;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 4px 10px 20px rgb(53, 65, 75);
+  }
+ 
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+#section{
+    height: 100vh;
+    background-image: linear-gradient(#37b9e9,#a3bcb1);
+}
+@media screen and (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  }
+  h2{
+      position: relative;
+      left: 50%;
+      top: 10%;
+      text-transform: uppercase;
+      font-size: 25px;
+      transform: translate(-10%,-10%)
+
+  }
+.cardsize{
+    width: 70%;
+    margin: auto;
+}
+.modify{
+    padding: 20px;
+    background: #a3bcb1;
+}
+.linkmargin{
+    margin: 10px 5px;
+}
+.column-modified{
+    margin: 10px 5px;
+    box-shadow: 4px 10px 20px rgb(71, 99, 122);
+}
