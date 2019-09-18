@@ -20,7 +20,7 @@
                   <label for="name"> Name</label>
                 </div>
                 <div class="column is-three-quaters ">
-                  <input type="text" id="name" name="name" placeholder="Your name..">
+                  <input type="text" id="name" name="name" placeholder="Your name.." required>
                 </div>
               </div>
               <div class="columns">
@@ -28,7 +28,7 @@
                   <label for="email">Email id</label>
                 </div>
                 <div class="column is-three-quaters">
-                  <input type="text" id="email" name="email" placeholder="Your Email id">
+                  <input type="text" id="email" name="email" placeholder="Your Email id" required>
                 </div>
               </div>
               <div class="columns">
@@ -52,10 +52,11 @@
                 </div>
               </div>
               <div class="row">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" onclick="mySubmit()">
               </div>
             </form>
         </div>
     </div>
+    <script src="control.js"></script>
 </body>
 </html>
